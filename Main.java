@@ -11,6 +11,11 @@
 
 import java.util.Scanner;
 
+/*
+ * This is the main function for my
+ * program.
+ * Class Main
+ */
 final class Main {
 
     /**
@@ -32,18 +37,19 @@ final class Main {
     * @param args No args will be used
     */
     public static void main(final String[] args) {
-        // print out "Albert Einstien Formula"
-        
-            final Scanner userInt = new Scanner(System.in);
-            final JacksonStacks stackNum = new JacksonStacks();
 
-            System.out.print("Enter a number!: ");
-            final int userInput = userInt.nextInt();
-            stackNum.push(userInput);
+        // this is a stack program
+        final Scanner userInt = new Scanner(System.in);
+        final JacksonStacks stackNum = new JacksonStacks();
 
-            stackNum.finishedStack();
+        // this asks for tyhe input from the user.
+        System.out.print("Enter a number!: ");
+        final int userInput = userInt.nextInt();
+        stackNum.push(userInput);
 
-            System.out.print("\nDone!");
-}
+        stackNum.finishedStack();
+
+        System.out.println("\nDone!");
+    }
 }
 
