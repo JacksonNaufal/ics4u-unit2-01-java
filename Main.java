@@ -10,12 +10,12 @@
 */
 
 import java.util.Scanner;
-
-/*
- * This is the main function for my
- * program.
- * Class Main
+/**
+ * This is the main function
+ * for my program.
+ * Class Main.
  */
+
 final class Main {
 
     /**
@@ -52,4 +52,3 @@ final class Main {
         System.out.println("\nDone!");
     }
 }
-
